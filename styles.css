@@ -268,3 +268,39 @@ body {
     z-index: 2;
     transition: 0.25s var(--cubic-in);
 }
+
+.navbar.active {
+    transform: translateX(280px);
+    visibility: visible;
+    transition: 0.5s var(--cubic-out);
+}
+
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px 30px;
+}
+
+.navbar-top .logo {
+    color: var(--st-patricks-blue);
+    font-size: 4.2rem;
+    font-weight: var(--fw-700);
+}
+
+.nav-close-btn {
+    color: var(--space-cadet-1);
+    font-size:2.8rem;
+    padding: 4px;
+}
+
+.navbar-item:not(:last-child) {
+    border-bottom:1px solid var(--platinum);
+}
+
+.navbar-link {
+    color: var(--space-cadet-1);
+    font-size: var(--fs-8);
+    font-weight: var(--fw-600);
+    padding-block: 12px;
+}
