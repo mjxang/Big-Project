@@ -116,7 +116,25 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: hsl(0,0%, 95%);
+    background-color: hsl(0,0%,95%);
 }
 
-::webkit
+::-webkit-scrollbar-thumb {
+    background-color: hsl(0,0%,80%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(0,0%,70%);
+}
+
+.container {
+    padding-inline: 15px;
+}
+
+.h2,.h3 {
+    font-family: var(--ff-source-sans-pro);
+}
+
+.btn {
+    background-image: var(--gradient-2);
+}
