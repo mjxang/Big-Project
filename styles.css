@@ -394,3 +394,27 @@ body {
 .stats-text {
     font-size: var(--fs-8);
 }
+
+.service-list {
+    display: grid;
+    gap: 30px;
+}
+
+.service-card {
+    padding: 30px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-12);
+}
+
+.service-card .card-icon {
+    background-image: url("C:\Users\myrju\OneDrive\Desktop\big project!\Big-Project\service-banner-pattern.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsla(335, 87%, 53%, 0.12);
+    aspect-ratio: 1/1;
+    max-width: 165px;
+    display: grid;
+    place-content: center;
+    margin-inline: auto;
+    transition: var(--transition-1);
+}
