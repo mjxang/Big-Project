@@ -353,3 +353,27 @@ body {
     font-size: var(--fs-8);
     margin-block-end: 30px;
 }
+
+
+.about-banner {
+    margin-block-end: 30px;
+}
+
+.about .section-title {
+    margin-inline: 0;
+}
+
+.about .underline::before{
+    left: 0;
+    transform: translateX(0);
+}
+
+.about .text {
+    font-size: var(--fs-8);
+    margin-block-end: 20px;
+}
+
+.stats-list {
+    display: grid;
+    gap: 30px;
+}
