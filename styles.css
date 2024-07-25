@@ -137,4 +137,33 @@ body {
 
 .btn {
     background-image: var(--gradient-2);
+    background-size: 200%;
+    color:var(--white);
+    padding:12px 35px;
+    font-size:var(--fs-8);
+    font-weight:var(--fw-500);
+    border-radius: 0 25px;
+    transition: var(--transition-2);
 }
+
+.btn:is(:hover,:focus) {
+    background-position: right;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.banner-animation {
+    animation: waveAnim 2s linear infinite alternate;
+}
+
+@keyframes waveAnim {
+    0% {
+        transform: translate(0,0) rotate(0);
+    }
+    100% {
+        transform: translate(2px, 2px);
+    }
+}
+
